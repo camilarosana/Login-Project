@@ -6,9 +6,10 @@ mode.addEventListener('click', ()=>{
         mode.classList.remove('fa-moon');
         mode.classList.add('fa-sun');
 
-        form.classList.toggle('dark');
+        form.classList.remove('dark');
         return;
     }
     mode.classList.add('fa-moon');
     mode.classList.remove('fa-sun');
+    form.classList.add('dark');
 });
